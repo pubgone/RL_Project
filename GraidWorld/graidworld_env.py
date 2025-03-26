@@ -593,7 +593,7 @@ if __name__ == "__main__":
     env = GraidWorldEnv(render_mode="human")
     observation, _ = env.reset()
     
-    for _ in range(5):  # 运行5个回合
+    for _ in range(1):  # 运行5个回合
         done = False
         while not done:
             action = env.action_space.sample()
